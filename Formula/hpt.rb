@@ -15,11 +15,6 @@ class Hpt < Formula
     bin.install "pktinfo"
     bin.install "txt2pkt"
     man1.install Dir["man/*.1"]
-    Dir.chdir('fidoroute')
-    system "make"
-    bin.install "fidoroute"
-    man1.install "fidoroute.1"
-    man5.install "fidoroute.conf.5"
   end
 end
 
