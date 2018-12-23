@@ -1,7 +1,7 @@
 class Makenl < Formula
   desc "Fidonet nodelist compiler"
   homepage "https://sourceforge.net/projects/makenl/"
-  url "https://netcologne.dl.sourceforge.net/project/makenl/makenl/3.4.6/MN346SRC.ZIP"
+  url "https://downloads.sourceforge.net/project/makenl/makenl/3.4.6/MN346SRC.ZIP"
   sha256 "73087b084b9eab430f52820ad983d43e30f7e9888d16dbca3841f52f0786a1fb"
 
   patch :p0, :DATA
